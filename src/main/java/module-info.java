@@ -5,4 +5,6 @@ module hu.petrik.filmdb {
 
     opens hu.petrik.filmdb to javafx.fxml;
     exports hu.petrik.filmdb;
+    exports hu.petrik.filmdb.controller;
+    opens hu.petrik.filmdb.controller to javafx.fxml;
 }
